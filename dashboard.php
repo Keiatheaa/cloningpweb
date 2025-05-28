@@ -6,7 +6,6 @@ if (!isset($_SESSION['username'])) {
     header("Location: login.php");
     exit();
 }
-
 // Cek apakah session counter sudah diset
 if (!isset($_SESSION['counter'])) {
     $_SESSION['counter'] = 1;
