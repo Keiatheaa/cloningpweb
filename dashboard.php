@@ -19,7 +19,6 @@ if (!isset($_SESSION['counter'])) {
         <title>::Login Page::</title>
         <style type="text/css">
             body{
-            body {
                 display: flex;
                 justify-content: center;
                 align-items: center;
